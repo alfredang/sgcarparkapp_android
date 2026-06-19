@@ -9,7 +9,7 @@
 
 **Native Android car park availability map for Singapore drivers.**
 
-[Report Bug](https://github.com/alfredang/sgbusapp_android/issues) | [Request Feature](https://github.com/alfredang/sgbusapp_android/issues)
+[Report Bug](https://github.com/alfredang/sgcarparkapp_android/issues) | [Request Feature](https://github.com/alfredang/sgcarparkapp_android/issues)
 
 </div>
 
@@ -139,6 +139,10 @@ The app can launch without API keys, but the map and live availability feed requ
 2. Create a feature branch.
 3. Commit focused changes with a clear message.
 4. Open a pull request with screenshots for UI changes.
+
+## Developed By
+
+Developed by [Tertiary Infotech Academy Pte. Ltd.](https://www.tertiarycourses.com.sg/).
 
 ## Acknowledgements
 
