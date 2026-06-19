@@ -9,7 +9,7 @@
 
 **Native Android car park availability map for Singapore drivers.**
 
-[Report Bug](https://github.com/alfredang/sgcarparkapp_android/issues) | [Request Feature](https://github.com/alfredang/sgcarparkapp_android/issues)
+[Report Bug](https://github.com/alfredang/sgbusapp_android/issues) | [Request Feature](https://github.com/alfredang/sgbusapp_android/issues)
 
 </div>
 
