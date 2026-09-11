@@ -9,6 +9,8 @@
 
 **Native Android car park availability map for Singapore drivers.**
 
+[Download from Play Store](https://play.google.com/store/apps/details?id=com.tertiaryinfotech.sgcarpark)
+
 [Report Bug](https://github.com/alfredang/sgcarparkapp_android/issues) | [Request Feature](https://github.com/alfredang/sgcarparkapp_android/issues)
 
 </div>
