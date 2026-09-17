@@ -24,11 +24,11 @@ val keystoreProperties = Properties().apply {
 fun String.asBuildConfigString(): String = "\"" + replace("\\", "\\\\").replace("\"", "\\\"") + "\""
 
 android {
-    namespace = "com.alfredang.sgcarpark"
+    namespace = "com.tertiaryinfotech.sgcarpark"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.alfredang.sgcarpark"
+        applicationId = "com.tertiaryinfotech.sgcarpark"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

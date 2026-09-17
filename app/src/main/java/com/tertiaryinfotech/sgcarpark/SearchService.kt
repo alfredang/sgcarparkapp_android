@@ -1,4 +1,4 @@
-package com.alfredang.sgcarpark
+package com.tertiaryinfotech.sgcarpark
 
 import android.content.Context
 import android.location.Geocoder

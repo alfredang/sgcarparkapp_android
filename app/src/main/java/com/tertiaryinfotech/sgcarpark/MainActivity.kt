@@ -1,4 +1,4 @@
-package com.alfredang.sgcarpark
+package com.tertiaryinfotech.sgcarpark
 
 import android.Manifest
 import android.content.Intent
@@ -157,6 +157,14 @@ private fun SGCarparkApp(viewModel: CarparkMapViewModel = viewModel()) {
                 }
             }
 
+            if (state.selectedCarpark == null) {
+                DataSourceAttribution(
+                    modifier = Modifier
+                        .align(Alignment.BottomCenter)
+                        .padding(12.dp),
+                )
+            }
+
             state.selectedCarpark?.let { carpark ->
                 BottomCarparkPanel(
                     modifier = Modifier.align(Alignment.BottomCenter),
@@ -168,6 +176,41 @@ private fun SGCarparkApp(viewModel: CarparkMapViewModel = viewModel()) {
                     },
                 )
             }
+        }
+    }
+}
+
+@Composable
+private fun DataSourceAttribution(modifier: Modifier = Modifier) {
+    val context = LocalContext.current
+    Surface(
+        modifier = modifier,
+        shape = RoundedCornerShape(8.dp),
+        color = Color.White.copy(alpha = 0.92f),
+        shadowElevation = 2.dp,
+    ) {
+        Column(
+            modifier = Modifier
+                .clickable {
+                    context.startActivity(
+                        Intent(
+                            Intent.ACTION_VIEW,
+                            Uri.parse("https://datamall.lta.gov.sg/content/datamall/en.html"),
+                        ),
+                    )
+                }
+                .padding(horizontal = 10.dp, vertical = 6.dp),
+        ) {
+            Text(
+                text = "Data source: LTA DataMall (datamall.lta.gov.sg)",
+                style = MaterialTheme.typography.labelSmall,
+                color = Color(0xFF1A73E8),
+            )
+            Text(
+                text = "Not affiliated with or endorsed by LTA.",
+                style = MaterialTheme.typography.labelSmall,
+                color = Color(0xFF5F6368),
+            )
         }
     }
 }

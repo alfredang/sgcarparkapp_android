@@ -1,4 +1,4 @@
-package com.alfredang.sgcarpark
+package com.tertiaryinfotech.sgcarpark
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

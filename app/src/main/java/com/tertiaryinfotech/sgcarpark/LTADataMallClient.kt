@@ -1,4 +1,4 @@
-package com.alfredang.sgcarpark
+package com.tertiaryinfotech.sgcarpark
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
